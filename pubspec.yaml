@@ -1,0 +1,40 @@
+name: dad_strong
+description: Minimalist strength training tracker.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.6.1
+  hive_flutter: ^1.1.0
+  auto_route: ^10.1.0
+  audioplayers: ^6.4.0
+  google_fonts: ^6.2.1
+  uuid: ^4.5.1
+  path_provider: ^2.1.5
+  intl: ^0.20.2
+  cupertino_icons: ^1.0.8
+  collection: ^1.19.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  auto_route_generator: ^10.2.3
+  build_runner: ^2.4.15
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/Images/dad-strong.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/audio/
